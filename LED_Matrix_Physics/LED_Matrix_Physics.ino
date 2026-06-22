@@ -8,26 +8,21 @@ void setup() {
   shutdownAll(false);
   setIntensityAll(5);
   lc.clearDisplay(0);
-  for(char i = 0; i < 4; i++) {
-    for(char j = 0; j < 8; j++) {
-      lc.setRow(i, j, 0b11111111);
-    }
-  }
+  lc.setLed(0, 0, 7, true);
 }
 
 void loop() {
-  for(char i = 0; i < 16; i++) {
-    setIntensityAll(i);
-    delay(1000);
-  }
+  //
 }
 
+// Set the shutdown status of all matrices
 void shutdownAll(bool status) {
   for(char i = 0; i < 4; i++) {
     lc.shutdown(i, status);
   }
 }
 
+// Set the intensity of all matrices
 void setIntensityAll(char intensity) {
   if(intensity < 0) intensity = 0;
   else if(intensity > 15) intensity = 15;
