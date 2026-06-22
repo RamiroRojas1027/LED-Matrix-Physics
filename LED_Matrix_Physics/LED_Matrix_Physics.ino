@@ -8,11 +8,23 @@ void setup() {
   shutdownAll(false);
   setIntensityAll(5);
   lc.clearDisplay(0);
-  lc.setLed(0, 0, 7, true);
 }
 
 void loop() {
-  //
+  for(char i = 0; i < 32; i++) {
+    setLED(0, i, 1);
+    delay(100);
+    setLED(0, i, 0);
+  }
+}
+
+void setLED(int row, int col, bool state) {
+  if(row < 0) row = 0;
+  else if(row > 7) row = 7;
+  if(col < 0) col = 0;
+  else if(col > 31) col = 31;
+
+  lc.setLed(col/8, 7 - row, 7 - (col % 8), state);
 }
 
 // Set the shutdown status of all matrices
