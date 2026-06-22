@@ -18,6 +18,8 @@ void loop() {
   }
 }
 
+// Logic for a general setLED function including all 4 matrices, allowing for an 8x32 matrix
+// Also fixes rotation of each matrix (read more in documentation)
 void setLED(int row, int col, bool state) {
   if(row < 0) row = 0;
   else if(row > 7) row = 7;
@@ -44,6 +46,7 @@ void setIntensityAll(char intensity) {
   }
 }
 
+// Clear the display of all matrices
 void clearDisplayAll() {
   for(char i = 0; i < 4; i++) {
     lc.clearDisplay(i);
