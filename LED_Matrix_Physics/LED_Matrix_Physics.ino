@@ -7,7 +7,7 @@ void setup() {
   // Serial.begin(115200);
   shutdownAll(false);
   setIntensityAll(5);
-  lc.clearDisplay(0);
+  clearDisplayAll();
 }
 
 void loop() {
@@ -41,5 +41,11 @@ void setIntensityAll(char intensity) {
 
   for(char i = 0; i < 4; i++) {
     lc.setIntensity(i, intensity);
+  }
+}
+
+void clearDisplayAll() {
+  for(char i = 0; i < 4; i++) {
+    lc.clearDisplay(i);
   }
 }
