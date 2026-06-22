@@ -1,7 +1,11 @@
 #include <LedControl.h>
 
-// DIN, CLK, CS, numDevices
-LedControl lc = LedControl(12, 11, 10, 4);
+// General matrix variables
+LedControl lc = LedControl(12, 11, 10, 4);   // DIN, CLK, CS, numDevices
+const unsigned char WIDTH = 32, HEIGHT = 8;
+
+// Box simulation variables
+unsigned char boxX = 0, boxY = 0, boxSize = 5; bool boxFill = false;
 
 void setup() {
   // Serial.begin(115200);
@@ -12,9 +16,24 @@ void setup() {
 
 void loop() {
   for(char i = 0; i < 32; i++) {
-    setLED(0, i, 1);
+    drawBox(false);
+    boxX = i;
+    drawBox(true);
     delay(100);
-    setLED(0, i, 0);
+  }
+}
+
+void drawBox(bool state) {
+  if(boxX < 0) boxX = 0;
+  else if(boxX > WIDTH - boxSize) boxX = WIDTH - boxSize;
+  if(boxY < 0) boxY = 0;
+  else if(boxY > HEIGHT - boxSize) boxY = HEIGHT - boxSize;
+
+  for(char x = boxX; x < boxX + boxSize; x++) {
+    for(char y = boxY; y < boxY + boxSize; y++) {
+      if(!boxFill && x != boxX && x != (boxX + boxSize - 1) && y != boxY && y != (boxY + boxSize - 1)) continue;
+      setLED(y, x, state);
+    }
   }
 }
 
