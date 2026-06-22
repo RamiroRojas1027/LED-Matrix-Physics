@@ -24,6 +24,8 @@ void loop() {
   }
 }
 
+// Draws a box with the current box coordinates and size
+// state: Draw box if true, erase box if false
 void drawBox(bool state) {
   if(invertedDisplay) state = !state;
   
