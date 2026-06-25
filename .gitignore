@@ -1,0 +1,8 @@
+# KiCad project settings file
+*.kicad_prl
+
+# Temporary files
+~*
+
+# .history folder that is automatically created, turning this off also turns off automatic backups, so it is left on
+.history/
