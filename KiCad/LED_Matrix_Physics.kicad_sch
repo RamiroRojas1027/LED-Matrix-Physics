@@ -2209,16 +2209,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 54.61 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c831035-d33f-4604-ad52-1e638bda2bc5")
-	)
-	(wire
-		(pts
 			(xy 74.93 54.61) (xy 74.93 58.42)
 		)
 		(stroke
@@ -2279,6 +2269,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 49.53) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298381cf-3562-4fbd-b7da-3ae2f4bdcd0f")
+	)
+	(wire
+		(pts
 			(xy 76.2 72.39) (xy 80.01 72.39)
 		)
 		(stroke
@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 44.45) (xy 71.12 44.45)
+			(xy 74.93 43.18) (xy 69.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2309,13 +2309,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 53.34) (xy 67.31 52.07)
+			(xy 54.61 58.42) (xy 54.61 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a321e8d-7da3-4f3b-9afa-a470b872e1b5")
+		(uuid "40445675-fb2b-48ff-be96-b998e7a049b1")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5589532a-13e9-4f9d-b241-68e92bc1472b")
 	)
 	(wire
 		(pts
@@ -2349,13 +2359,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 71.12 45.72)
+			(xy 69.85 43.18) (xy 69.85 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79061ce7-232a-4b29-a4a2-dcafc1520454")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 54.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c3bb66-69c9-45cd-807e-85211360312e")
 	)
 	(wire
 		(pts
@@ -2409,27 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 54.61 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c890f087-d4d8-4b3a-b020-d6211576e4ca")
-	)
-	(wire
-		(pts
-			(xy 80.01 54.61) (xy 74.93 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad3df3d-21fb-4786-bb97-4da22b5a8dc4")
-	)
-	(wire
-		(pts
-			(xy 71.12 53.34) (xy 67.31 53.34)
+			(xy 69.85 52.07) (xy 67.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2606,7 @@
 		(dnp no)
 		(uuid "0340f32a-9de5-4144-9e05-7ccc10017c67")
 		(property "Reference" "A1"
-			(at 51.054 57.658 0)
+			(at 49.276 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2617,7 +2617,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 51.054 60.198 0)
+			(at 49.276 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2862,7 +2862,8 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 71.12 49.53 90)
+		(at 54.61 54.61 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2870,10 +2871,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fb20015-65f4-4e42-9a6a-5078ec3ab9bb")
 		(property "Reference" "D1"
-			(at 73.66 48.2599 90)
+			(at 52.07 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 73.66 50.7999 90)
+			(at 52.07 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2895,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 49.53 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +2906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 49.53 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 71.12 49.53 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2928,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 71.12 49.53 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 49.53 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,7 +2966,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 80.01 49.53 0)
+		(at 74.93 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2976,7 +2976,7 @@
 		(dnp no)
 		(uuid "255a8a42-53b0-423c-8aae-0f817be4e487")
 		(property "Reference" "BT1"
-			(at 83.82 47.6884 0)
+			(at 78.74 47.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2987,7 +2987,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 83.82 50.2284 0)
+			(at 78.74 50.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2998,7 +2998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 48.006 90)
+			(at 74.93 48.006 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 48.006 90)
+			(at 74.93 48.006 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3020,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 80.01 49.53 0)
+			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3031,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 80.01 49.53 0)
+			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,7 +3042,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 80.01 49.53 0)
+			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,7 +3053,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 80.01 49.53 0)
+			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,7 +3340,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 143.51 66.04 0)
+		(at 33.02 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3351,7 +3351,7 @@
 		(fields_autoplaced yes)
 		(uuid "a03c6270-3e95-4183-93d7-742ac8aa7ebd")
 		(property "Reference" "SW2"
-			(at 143.51 59.69 0)
+			(at 33.02 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 143.51 62.23 0)
+			(at 33.02 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 66.04 0)
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 66.04 0)
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 143.51 66.04 0)
+			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
