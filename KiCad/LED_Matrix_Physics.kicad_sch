@@ -2202,10 +2202,50 @@
 		)
 	)
 	(junction
+		(at 21.59 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d77223b-579d-4140-874f-8a07e1dbc2c7")
+	)
+	(junction
+		(at 21.59 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37c63f4d-865c-42d7-bb37-2338f2c1b0d6")
+	)
+	(junction
+		(at 21.59 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45fa8f22-4cc1-49d1-a3e0-3fbaf905c111")
+	)
+	(junction
 		(at 74.93 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c745822-7f52-4b36-adc4-158c3e824bf3")
+	)
+	(junction
+		(at 21.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba2423e0-be77-42c5-aeaf-86fa9dc8d453")
+	)
+	(junction
+		(at 21.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f39ccfda-dcba-432c-bad6-46bca1284c16")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db3b566-cc7b-4d72-a7cb-61c44216dee8")
 	)
 	(wire
 		(pts
@@ -2219,6 +2259,36 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 80.01) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f107fd7-1902-4749-b986-b4a7d031a63e")
+	)
+	(wire
+		(pts
+			(xy 36.83 88.9) (xy 36.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3e307e-44f5-4222-bc47-2512f72ca4d0")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 21.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125cecd3-4b0d-46fc-8332-4fcd1fb31000")
+	)
+	(wire
+		(pts
 			(xy 40.64 97.79) (xy 44.45 97.79)
 		)
 		(stroke
@@ -2226,6 +2296,16 @@
 			(type default)
 		)
 		(uuid "194d02b3-40fc-435f-8351-e0498fa064d3")
+	)
+	(wire
+		(pts
+			(xy 21.59 83.82) (xy 21.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad15415-6739-4fd7-ae9e-07ba21fcb191")
 	)
 	(wire
 		(pts
@@ -2259,6 +2339,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 78.74) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227380f6-c3ce-4a29-9e22-053894eff537")
+	)
+	(wire
+		(pts
 			(xy 40.64 102.87) (xy 44.45 102.87)
 		)
 		(stroke
@@ -2269,6 +2359,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 77.47) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28138143-d225-4a76-81c6-8864019d2577")
+	)
+	(wire
+		(pts
 			(xy 54.61 49.53) (xy 57.15 49.53)
 		)
 		(stroke
@@ -2276,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "298381cf-3562-4fbd-b7da-3ae2f4bdcd0f")
+	)
+	(wire
+		(pts
+			(xy 34.29 93.98) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3129fcef-d677-4f93-99d6-18c7cb808792")
 	)
 	(wire
 		(pts
@@ -2319,6 +2429,36 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 73.66) (xy 24.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4951467a-250a-4eb2-a938-2d7de7074f3e")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ad16d9-43a8-4e35-b0af-ca115b43c3c5")
+	)
+	(wire
+		(pts
+			(xy 21.59 78.74) (xy 24.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5557135e-3d31-4269-8a00-c923978dfbee")
+	)
+	(wire
+		(pts
 			(xy 74.93 43.18) (xy 74.93 44.45)
 		)
 		(stroke
@@ -2329,6 +2469,26 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 83.82) (xy 24.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b477f6-34bc-4331-b889-0c8b8c20c378")
+	)
+	(wire
+		(pts
+			(xy 24.13 68.58) (xy 21.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8ba599-72f0-47a0-b49a-350e7596f43e")
+	)
+	(wire
+		(pts
 			(xy 72.39 58.42) (xy 74.93 58.42)
 		)
 		(stroke
@@ -2336,6 +2496,56 @@
 			(type default)
 		)
 		(uuid "5cccf238-45c1-4ffe-842f-0712a389d960")
+	)
+	(wire
+		(pts
+			(xy 21.59 93.98) (xy 24.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcb6065-c208-4526-a116-6cee42341e61")
+	)
+	(wire
+		(pts
+			(xy 36.83 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649cac1e-c25e-4443-aa45-fab641067256")
+	)
+	(wire
+		(pts
+			(xy 21.59 88.9) (xy 21.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666f62f7-9f0b-4c81-9891-0bd8ec24bd36")
+	)
+	(wire
+		(pts
+			(xy 34.29 88.9) (xy 36.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67348177-8737-45cd-af6e-135a066e6a4b")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 36.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b3bb0a-bdb5-43be-aabf-e038f81bd443")
 	)
 	(wire
 		(pts
@@ -2366,6 +2576,56 @@
 			(type default)
 		)
 		(uuid "79061ce7-232a-4b29-a4a2-dcafc1520454")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 36.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836043d0-9cdd-4bf9-b399-39914ffe564d")
+	)
+	(wire
+		(pts
+			(xy 36.83 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870c7823-caf6-4d69-b026-5ec8e4464fc5")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 44.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4f2379-37ae-487d-87f3-37a3c9e4e18e")
+	)
+	(wire
+		(pts
+			(xy 21.59 88.9) (xy 24.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917feb93-001c-40e5-9829-9212ad8829af")
+	)
+	(wire
+		(pts
+			(xy 21.59 78.74) (xy 21.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5dc407-6747-4e73-837c-e2de91b5e558")
 	)
 	(wire
 		(pts
@@ -2409,6 +2669,26 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 93.98) (xy 21.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa844098-2ca2-4f38-a250-7f92ed8dbb80")
+	)
+	(wire
+		(pts
+			(xy 34.29 73.66) (xy 36.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea97800-0d84-47ce-956c-568a7dffe1cf")
+	)
+	(wire
+		(pts
 			(xy 77.47 67.31) (xy 80.01 67.31)
 		)
 		(stroke
@@ -2416,6 +2696,16 @@
 			(type default)
 		)
 		(uuid "bc5dc9e8-c131-42a4-b7b7-87d165936e04")
+	)
+	(wire
+		(pts
+			(xy 21.59 73.66) (xy 21.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9f7bd6-5147-440b-aa02-fe1b3109e8d2")
 	)
 	(wire
 		(pts
@@ -2429,6 +2719,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 68.58) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89a05f6-51cd-4964-ba08-4132a49084a4")
+	)
+	(wire
+		(pts
 			(xy 69.85 52.07) (xy 67.31 52.07)
 		)
 		(stroke
@@ -2439,6 +2739,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 87.63) (xy 44.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e405f6d1-e9a8-4205-af9a-ae91cc83fe29")
+	)
+	(wire
+		(pts
 			(xy 77.47 64.77) (xy 77.47 67.31)
 		)
 		(stroke
@@ -2446,6 +2756,26 @@
 			(type default)
 		)
 		(uuid "e5755731-a1c0-4e06-a02c-91264a3d07c1")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd3971a-2328-47da-a98c-97659dfac8e4")
+	)
+	(wire
+		(pts
+			(xy 36.83 78.74) (xy 36.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee42e1c6-2de5-429a-b4d0-5e121dadfe28")
 	)
 	(wire
 		(pts
@@ -2755,6 +3085,83 @@
 			(project "LED_Matrix_Physics"
 				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a2af789-cc2c-4643-83a5-58f44b4a40f5")
+		(property "Reference" "#PWR03"
+			(at 21.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e75f0954-0ec5-4c88-8d4d-5a515be4e9d5")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3261,6 +3668,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 29.21 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fe38787-aed3-412b-a0dd-936223313ff6")
+		(property "Reference" "SW7"
+			(at 21.082 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 21.082 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 29.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1426c754-cb6a-4153-bdd0-50dc42e57bf7")
+		)
+		(pin "1"
+			(uuid "76f66fb0-25f2-4afb-918c-1eba92aa1a2c")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 80.01 90.17 90)
 		(unit 1)
@@ -3340,7 +3828,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 33.02 74.93 0)
+		(at 29.21 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3348,30 +3836,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a03c6270-3e95-4183-93d7-742ac8aa7ebd")
-		(property "Reference" "SW2"
-			(at 33.02 68.58 0)
+		(uuid "7e8912a1-c05b-4fee-89be-d6a27a9c057f")
+		(property "Reference" "SW6"
+			(at 21.082 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 33.02 71.12 0)
+			(at 21.082 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 74.93 0)
+			(at 29.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 74.93 0)
+			(at 29.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3882,169 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 33.02 74.93 0)
+			(at 29.21 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63451438-c28e-4790-b0e1-8eb97724eb18")
+		)
+		(pin "1"
+			(uuid "5e2be0a3-b94c-40cf-aadb-24f7fee36450")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 29.21 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "999d13aa-dcae-4905-aa0e-89da350e91b6")
+		(property "Reference" "SW4"
+			(at 21.082 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 21.082 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 29.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21dfc55b-5ce5-4c7c-b0b6-d23ce10d1fe8")
+		)
+		(pin "1"
+			(uuid "ff0289f7-cee7-49cb-a640-d6ed9869c568")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 29.21 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a03c6270-3e95-4183-93d7-742ac8aa7ebd")
+		(property "Reference" "SW2"
+			(at 21.082 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 21.082 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 29.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3574,6 +4225,168 @@
 			(project "LED_Matrix_Physics"
 				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 29.21 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf063f81-54fd-4e84-899f-a70c8cf066d3")
+		(property "Reference" "SW5"
+			(at 21.082 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 21.082 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 29.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5faa10b-94d5-4c6f-9f94-2122e14f98cf")
+		)
+		(pin "1"
+			(uuid "8151960e-9b3a-4d2d-8cba-74db800ea99e")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 29.21 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e78d1d9a-4979-4d02-8f52-634321d6b0d5")
+		(property "Reference" "SW3"
+			(at 21.082 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 21.082 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 29.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "047df94d-daa3-463a-a3c4-d8926080ca37")
+		)
+		(pin "1"
+			(uuid "2d4ae7ec-80e5-41a2-99c1-b83319799aaa")
+		)
+		(instances
+			(project "LED_Matrix_Physics"
+				(path "/c2eb6624-910f-4bea-b9ce-a6f3b6d89cd1"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
