@@ -51,7 +51,12 @@ void setup() {
 }
 
 void loop() {
-  drawBox(true);
+  // drawBox(true);
+
+  clearDisplay();
+  matrix.drawChar(0, 0, char(int(pitch)), HIGH, LOW, 1);
+  matrix.write();
+  
   updateGyro();
   if(pitch >= limit) {
     addBoxX(step);
@@ -78,12 +83,12 @@ void updateGyro() {
   yaw = yaw + norm.ZAxis * timeStep;
 
   // Output raw
-  // Serial.print(" Pitch = ");
-  // Serial.print(pitch);
-  // Serial.print(" Roll = ");
-  // Serial.print(roll);  
-  // Serial.print(" Yaw = ");
-  // Serial.println(yaw);
+  Serial.print(" Pitch = ");
+  Serial.print(pitch);
+  Serial.print(" Roll = ");
+  Serial.print(roll);  
+  Serial.print(" Yaw = ");
+  Serial.println(yaw);
 
   // Wait to full timeStep period
   delay((timeStep*1000) - (millis() - timer));
