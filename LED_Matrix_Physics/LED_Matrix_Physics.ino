@@ -37,7 +37,7 @@ void setup() {
 
   // Initialize MPU6050
   while(!mpu.begin(MPU6050_SCALE_2000DPS, MPU6050_RANGE_2G)) {
-    Serial.println("Could not find a valid MPU6050 sensor, check wiring!");
+    // Serial.println("Could not find a valid MPU6050 sensor, check wiring!");
     delay(500);
   }
 
@@ -53,14 +53,14 @@ void setup() {
 void loop() {
   drawBox(true);
   updateGyro();
-  if(roll >= limit) {
+  if(pitch >= limit) {
     addBoxX(step);
-  } else if(roll <= -limit) {
+  } else if(pitch <= -limit) {
     addBoxX(-step);
   }
-  if(pitch >= limit) {
+  if(roll >= limit) {
     addBoxY(-step);
-  } else if(pitch <= -limit) {
+  } else if(roll <= -limit) {
     addBoxY(step);
   }
 }
