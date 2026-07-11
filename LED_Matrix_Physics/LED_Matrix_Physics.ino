@@ -3,6 +3,7 @@
 #include <Max72xxPanel.h>
 #include <Wire.h>
 #include <MPU6050.h>
+#include <OneButton.h>
 
 // General matrix variables
 const unsigned char CS = 10, hDisplays = 4, vDisplays = 1;
@@ -29,8 +30,17 @@ float yaw = 0;
 float limit = 5.0;
 float step = 0.2;
 
+// Button variables
+OneButton button1(4);
+OneButton button2(5);
+OneButton button3(6);
+OneButton button4(7);
+OneButton button5(8);
+OneButton button6(9);
+
 void setup() {
-  // Serial.begin(115200);
+  Serial.begin(115200);
+
   matrix.setIntensity(5);
   for(char i = 0; i < 4; i++) matrix.setRotation(i, 1);
   clearDisplay();
@@ -48,14 +58,21 @@ void setup() {
   // Set threshold sensivty. Default 3.
   // If you don't want use threshold, comment this line or set 0.
   mpu.setThreshold(3);
+
+  button1.attachClick(buttonClick1);
+  button2.attachClick(buttonClick2);
+  button3.attachClick(buttonClick3);
+  button4.attachClick(buttonClick4);
+  button5.attachClick(buttonClick5);
+  button6.attachClick(buttonClick6);
 }
 
 void loop() {
-  // drawBox(true);
+  drawBox(true);
 
-  clearDisplay();
-  matrix.drawChar(0, 0, char(int(pitch)), HIGH, LOW, 1);
-  matrix.write();
+  // clearDisplay();
+  // matrix.drawChar(0, 0, char(int(pitch)), HIGH, LOW, 1);
+  // matrix.write();
   
   updateGyro();
   if(pitch >= limit) {
@@ -68,6 +85,13 @@ void loop() {
   } else if(roll <= -limit) {
     addBoxY(step);
   }
+
+  button1.tick();
+  button2.tick();
+  button3.tick();
+  button4.tick();
+  button5.tick();
+  button6.tick();
 }
 
 // Update gyroscope variables
@@ -137,4 +161,34 @@ void drawBox(bool clearBeforeDrawing) {
 void clearDisplay() {
   matrix.fillScreen(invertedDisplay);
   matrix.write();
+}
+
+// Click function for Button 1
+void buttonClick1() {
+  //
+}
+
+// Click function for Button 2
+void buttonClick2() {
+  //
+}
+
+// Click function for Button 3
+void buttonClick3() {
+  //
+}
+
+// Click function for Button 4
+void buttonClick4() {
+  //
+}
+
+// Click function for Button 5
+void buttonClick5() {
+  //
+}
+
+// Click function for Button 6
+void buttonClick6() {
+  //
 }
