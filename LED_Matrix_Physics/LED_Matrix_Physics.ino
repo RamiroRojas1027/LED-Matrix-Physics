@@ -171,12 +171,12 @@ void buttonClick1() {
 
 // Click function for Button 2
 void buttonClick2() {
-  //
+  boxSize++;
 }
 
 // Click function for Button 3
 void buttonClick3() {
-  //
+  boxSize--;
 }
 
 // Click function for Button 4
