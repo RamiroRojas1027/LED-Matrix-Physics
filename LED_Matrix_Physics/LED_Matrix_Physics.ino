@@ -120,30 +120,14 @@ void updateGyro() {
 
 // Adds to the x coordinate of the box, making sure the box stays inside the grid
 void addBoxX(float amount) {
-  realBoxX += amount;
+  realBoxX = constrain(realBoxX + amount, 0, matrix.width() - boxSize);
   boxX = int(realBoxX);
-  if(boxX < 0) {
-    boxX = 0;
-    realBoxX = 0;
-  }
-  else if(boxX > matrix.width() - boxSize) {
-    boxX = matrix.width() - boxSize;
-    realBoxX = matrix.width() - boxSize;
-  }
 }
 
 // Adds to the y coordinate of the box, making sure the box stays inside the grid
 void addBoxY(float amount) {
-  realBoxY += amount;
+  realBoxY = constrain(realBoxY + amount, 0, matrix.height() - boxSize);
   boxY = int(realBoxY);
-  if(boxY < 0) {
-    boxY = 0;
-    realBoxY = 0;
-  }
-  else if(boxY > matrix.height() - boxSize) {
-    boxY = matrix.height() - boxSize;
-    realBoxY = matrix.height() - boxSize;
-  }
 }
 
 // Draws a box with the current box coordinates and size
@@ -171,12 +155,12 @@ void buttonClick1() {
 
 // Click function for Button 2
 void buttonClick2() {
-  boxSize++;
+  boxSize = constrain(boxSize + 1, 1, 8);
 }
 
 // Click function for Button 3
 void buttonClick3() {
-  boxSize--;
+  boxSize = constrain(boxSize - 1, 1, 8);
 }
 
 // Click function for Button 4
