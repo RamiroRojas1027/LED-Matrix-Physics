@@ -156,11 +156,13 @@ void buttonClick1() {
 // Click function for Button 2
 void buttonClick2() {
   boxSize = constrain(boxSize + 1, 1, 8);
+  addBoxX(0); addBoxY(0);
 }
 
 // Click function for Button 3
 void buttonClick3() {
   boxSize = constrain(boxSize - 1, 1, 8);
+  addBoxX(0); addBoxY(0);
 }
 
 // Click function for Button 4
