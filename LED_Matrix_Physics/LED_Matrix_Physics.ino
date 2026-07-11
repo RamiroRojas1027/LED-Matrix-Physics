@@ -165,7 +165,8 @@ void clearDisplay() {
 
 // Click function for Button 1
 void buttonClick1() {
-  //
+  pitch = 0.0; roll = 0.0; yaw = 0.0;
+  Serial.println("Rotation variables reset!");
 }
 
 // Click function for Button 2
