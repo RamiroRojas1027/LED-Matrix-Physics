@@ -29,6 +29,7 @@ float yaw = 0;
 // Gyro thresholds
 float limit = 5.0;
 float step = 0.2;
+float rollChange = 40;
 
 // Button variables
 OneButton button1(4);
@@ -75,15 +76,20 @@ void loop() {
   // matrix.write();
   
   updateGyro();
-  if(pitch >= limit) {
+  if(pitch >= limit && (roll <= rollChange && roll >= -rollChange)) {
     addBoxX(step);
-  } else if(pitch <= -limit) {
+  } else if(pitch <= -limit && (roll <= rollChange && roll >= -rollChange)) {
     addBoxX(-step);
   }
   if(roll >= limit) {
     addBoxY(-step);
   } else if(roll <= -limit) {
     addBoxY(step);
+  }
+  if(yaw >= limit && (roll >= rollChange && roll <= -rollChange)) {
+    addBoxX(step);
+  } else if(yaw <= limit && (roll >= rollChange && roll <= -rollChange)) {
+    addBoxX(-step);
   }
 
   button1.tick();
@@ -105,6 +111,9 @@ void updateGyro() {
   pitch = pitch + norm.YAxis * timeStep;
   roll = roll + norm.XAxis * timeStep;
   yaw = yaw + norm.ZAxis * timeStep;
+  if(roll >= rollChange || roll <= -rollChange) {
+    //
+  }
 
   // Output raw
   Serial.print(" Pitch = ");
